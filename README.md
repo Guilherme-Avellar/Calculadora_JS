@@ -1,2 +1,4 @@
 # Calculadora_JS
-Exercício de conceitos base de JavaScript
+
+Uma calculadora feita com JavaScript, css e html
+Exercício com conceitos básicos do JavaScript
