@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3 Cap 4</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+
+        <div class="container">
+
+            <div class="inputs">
+                <label for="firstNumber">Valor 1</label>
+                <input type="number" class="input_number" id="firstNumber" inputmode="numeric" placeholder="99">
+            </div>
+
+            <div class="inputs">
+                <label for="secondNumber">Valor 2</label>
+                <input type="number" class="input_number" id="secondNumber" inputmode="numeric" placeholder="99">
+            </div>
+            
+        </div>
+
+        <div class="buttons">
+            <button onclick="somar()">Somar</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <button onclick="subtrair()">Subitrair</button>
+            <button onclick="dividir()">Dividir</button>
+        </div>
+
+        <p>Resultado: <span id="resultado">9999</span></p>
+
+    </main>
+    
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>
