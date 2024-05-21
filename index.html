@@ -9,6 +9,8 @@
 <body>
     <main>
 
+        <h1>Calculadora</h1>
+
         <div class="container">
 
             <div class="inputs">
@@ -20,17 +22,17 @@
                 <label for="secondNumber">Valor 2</label>
                 <input type="number" class="input_number" id="secondNumber" inputmode="numeric" placeholder="99">
             </div>
+
+            <div class="buttons">
+                <button onclick="somar()">Somar</button>
+                <button onclick="multiplicar()">Multiplicar</button>
+                <button onclick="subtrair()">Subitrair</button>
+                <button onclick="dividir()">Dividir</button>
+            </div>
+
+            <p>Resultado: <span id="resultado">9999</span></p>
             
         </div>
-
-        <div class="buttons">
-            <button onclick="somar()">Somar</button>
-            <button onclick="multiplicar()">Multiplicar</button>
-            <button onclick="subtrair()">Subitrair</button>
-            <button onclick="dividir()">Dividir</button>
-        </div>
-
-        <p>Resultado: <span id="resultado">9999</span></p>
 
     </main>
     
